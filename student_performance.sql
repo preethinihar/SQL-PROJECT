@@ -1,0 +1,29 @@
+CREATE DATABASE student_performance;
+USE student_performance;
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    gender CHAR(1),
+    class INT,
+    subject VARCHAR(50),
+    marks INT,
+    exam_date DATE
+);
+
+INSERT INTO students (student_id, name, gender, class, subject, marks, exam_date) VALUES
+(1, 'Aditi', 'F', 10, 'Math', 88, '2024-03-10'),
+(2, 'Rahul', 'M', 10, 'English', 76, '2024-03-10'),
+(3, 'Meena', 'F', 10, 'Science', 91, '2024-03-10'),
+(4, 'Rohit', 'M', 10, 'Math', 67, '2024-03-10'),
+(5, 'Priya', 'F', 10, 'Science', 79, '2024-03-10'),
+(6, 'Kiran', 'M', 10, 'English', 85, '2024-03-10'),
+(7, 'Neha', 'F', 10, 'Math', 92, '2024-03-10'),
+(8, 'Vikram', 'M', 10, 'Science', 73, '2024-03-10'),
+(9, 'Sneha', 'F', 10, 'English', 81, '2024-03-10'),
+(10, 'Arjun', 'M', 10, 'Science', 89, '2024-03-10'),
+(11, 'Pooja', 'F', 10, 'Math', 77, '2024-03-10'),
+(12, 'Dev', 'M', 10, 'English', 90, '2024-03-10'),
+(13, 'Kavya', 'F', 10, 'Science', 84, '2024-03-10'),
+(14, 'Ramesh', 'M', 10, 'Math', 68, '2024-03-10'),
+(15, 'Diya', 'F', 10, 'English', 95, '2024-03-10');

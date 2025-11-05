@@ -1,0 +1,9 @@
+Average Marks by Subject:
+Science → 83.33
+Math → 81.25
+English → 85.50
+
+Top 3 Students:
+Diya → 95
+Neha → 92
+Meena → 91
